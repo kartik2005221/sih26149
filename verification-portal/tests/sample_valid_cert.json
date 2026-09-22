@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "cert_uuid": "6da82f40-ba63-4f06-a2bd-fb7bee6e715a",
+  "issued_at": "2026-08-31T01:59:10Z",
+  "issuer": {
+    "organization": "s0 Demo Lab",
+    "operator_id": "op-demo-42"
+  },
+  "tool": {
+    "name": "s0-cli",
+    "version": "0.1.0",
+    "platform": "linux"
+  },
+  "device": {
+    "device_id": "test-drive-001",
+    "device_type": "image_file",
+    "storage_type": "IMAGE_FILE",
+    "capacity_bytes": 1048576,
+    "model": "Virtual Test Drive",
+    "serial_number": "SN-12345678"
+  },
+  "wipe": {
+    "method": "OVERWRITE_ZERO_1PASS",
+    "nist_category": "Clear",
+    "start_time": "2026-08-31T07:00:00Z",
+    "end_time": "2026-08-31T07:01:00Z",
+    "bytes_processed": 1048576
+  },
+  "result": {
+    "status": "success",
+    "verification": {
+      "method": "sampled_readback",
+      "samples_checked": 64,
+      "sample_bytes_each": 4096,
+      "all_samples_match_wipe_pattern": true,
+      "planted_pattern_hits_after": 0
+    }
+  },
+  "signature": {
+    "algorithm": "Ed25519",
+    "public_key_fingerprint": "sha256:8396af8c07a7d40f98ba492cf2b61e23fa768e66a9f627b02a9caff464e48c06",
+    "signature_base64url": "8TMpR-uXVmys3d-5Anj0yD4VgISOt7UJOsUQPq43xeU-UKHrz09mQgK5w9zdexzItdHz6F0sO-lz10te6oksCA",
+    "signed_payload_hash": "sha256:e1bd9ded489544f9ee6f5cada68f289fde000dde0f2ceff30c6a1dfc3acd4c79"
+  }
+}

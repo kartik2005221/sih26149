@@ -1,0 +1,11 @@
+# Core cryptographic, certification, and forensic dependencies
+cryptography>=42.0.0
+reportlab>=4.0.0
+
+# Web Dashboard & API dependencies
+fastapi>=0.110.0
+uvicorn>=0.28.0
+
+# Testing & Verification dependencies
+pytest>=8.0.0
+
